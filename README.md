@@ -6,7 +6,7 @@ This version covers **vehicle movement** (Forward/Backward/Left/Right/Stop). You
 
 ---
 
-Features
+## Features
 - Control from any phone/laptop on the same Wi-Fi (no app needed)
 - Simple web buttons: **Forward / Backward / Left / Right / Stop**
 - Clean, beginner-friendly Arduino sketch
@@ -19,12 +19,13 @@ Features
 - **L298N** motor driver
 - 4 × DC motors with wheels
 - 1 × DC motor (conveyor belt)
+- Conveyor Belt with DC Motor
 - Battery pack (match motor voltage)
 - Chassis, jumper wires
 
 ---
 
-## 🧰 Wiring (recommended pins)
+## Wiring (recommended pins)
 | Function | NodeMCU Pin | ESP8266 GPIO | L298N |
 |---|---:|---:|---|
 | Left motor IN1 | D1 | 5  | IN1 (L298N #1) |
@@ -33,3 +34,20 @@ Features
 | Right motor IN2 | D6 | 12 | IN4 (L298N #1) |
 | ENA / ENB | — | — | Keep jumpers ON |
 | GND | GND | — | Common GND across NodeMCU + L298N + Battery |
+
+---
+
+## ▶️ Controls
+- **Forward** → Moves the vehicle ahead.
+- **Backward** → Moves the vehicle back.
+- **Left** → Turns left.
+- **Right** → Turns right.
+
+---
+
+## ⚡ How It Works
+1. Connect Arduino to ESP8266 WiFi module.
+2. Upload the code from `/code/trash_collector.ino`.
+3. Power the circuit with battery supply.
+4. Connect your phone/laptop to the same WiFi network.
+5. Open the IP shown in Serial Monitor → Control the robot.
