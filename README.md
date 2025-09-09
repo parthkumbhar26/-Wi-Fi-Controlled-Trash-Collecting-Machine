@@ -1,4 +1,4 @@
-WiFi Controlled Trash Collecting Machine
+**WiFi Controlled Trash Collecting Machine**
 
 A **Wi-Fi controlled robot** that moves using a web page hosted on **NodeMCU (ESP8266)**.  
 It uses an **L298N motor driver** to drive 4 DC motors (two on each side).  
@@ -13,9 +13,10 @@ Features
 
 ---
 
-## 🔧 Components
+## Components
 - **NodeMCU (ESP8266)**
 - **L298N** motor driver
 - 4 × DC motors with wheels
+- 1 × DC motor (conveyor belt)
 - Battery pack (match motor voltage)
 - Chassis, jumper wires
