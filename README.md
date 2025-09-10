@@ -1,8 +1,8 @@
 ## **WiFi Controlled Trash Collecting Machine**
 
 A **Wi-Fi controlled robot** that moves using a web page hosted on **NodeMCU (ESP8266)**.  
-It uses an **L298N motor driver** to drive 4 DC motors (two on each side).  
-This version covers **vehicle movement** (Forward/Backward/Left/Right/Stop). You can add the conveyor later.
+It uses an **L298N motor driver** to drive 4 DC motors (two on each side).
+It has **Conveyor Belt**.
 
 ---
 
@@ -47,7 +47,7 @@ This version covers **vehicle movement** (Forward/Backward/Left/Right/Stop). You
 
 ## How It Works
 1. Connect Arduino to ESP8266 WiFi module.
-2. Upload the code from `code/trash_collector.ino`.
+2. Upload the code.
 3. Power the circuit with battery supply.
 4. Connect your phone/laptop to the same WiFi network.
 5. Open the IP shown in Serial Monitor → Control the robot.
