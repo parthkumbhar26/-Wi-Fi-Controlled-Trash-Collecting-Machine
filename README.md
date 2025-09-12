@@ -7,7 +7,7 @@ It has **Conveyor Belt**.
 ---
 
 ## Features
-- Control from any phone/laptop on the same Wi-Fi (no app needed)
+- Control from any phone/laptop on the same Wi-Fi
 - Simple web buttons: **Forward / Backward / Left / Right / Stop**
 - Clean, beginner-friendly Arduino sketch
 - Conveyor belt control
